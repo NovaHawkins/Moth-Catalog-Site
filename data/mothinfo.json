@@ -1,0 +1,44 @@
+[
+    {
+        "id": "1",
+        "name": "Rosy Maple Moth",
+        "sciname": "Dryocampa rubicunda",
+        "about": "The rosy maple moth is the smallest of the silk moths; males have a wingspan of 3.2 to 4.4 centimetres (1.25-1.75 in); females of 3.8 to 5 centimetres (1.5–2 in). The species can be identified by their unique, but varying, pink and yellow coloration. They have reddish-to-pink legs and antennae, yellow bodies and hindwings, and pink forewings with a triangular yellow band across the middle.",
+        "image": "rosyMaple.jpg"
+    },
+    {
+        "id": "2",
+        "name": "African Deathshead Hawkmoth",
+        "sciname": "Acherontia atropos",
+        "about": "The African death's-head hawkmoth (Acherontia atropos) is the largest moth in the British Isles, with a wingspan of 5 in (13 cm); it is a powerful flier, having sometimes been found on ships far from land. The forewings are a mottled dark brown and pale brown, and the hind wings are orangey-buff with two narrow dark bands parallel with the hind margin. The abdomen is a similar orangey-brown, with a broad, dark dorsal stripe. The most notable feature is a patch of short yellowish hairs on the thorax that gives the impression of depicting a human skull. It is a striking insect, but is seldom seen because it flies late in the night.",
+        "image": "deathsHead.jpg"
+    },
+    {
+        "id": "3",
+        "name": "Polyphemus Moth",
+        "sciname": "Antheraea polyphemus",
+        "about": "Antheraea polyphemus, the Polyphemus moth, is a North American member of the family Saturniidae, the giant silk moths.[1] It is a tan-colored moth, with an average wingspan of 15 cm (6 in). The most notable feature of the moth is its large, purplish eyespots on its two hindwings. The eyespots give it its name – from the Greek myth of the cyclops Polyphemus.",
+        "image": "polyphemus.jpg"
+    },
+    {
+        "id": "4",
+        "name": "Pink Elephant Moth",
+        "sciname": "Deilephila elpenor",
+        "about": "The D. elpenor moth has olive-brown coloured forewings outlined with pink. Two pink lines also run through the wings. The first line is usually thicker and terminates in the center of the wings near a white dot. The second line, which runs below the first, starts at the white inner margins and runs until the tip of the wing. The hindwings have a black inner half that gradually turns pink from the middle outwards. It is outlined by white fringes. The head, thorax, and body are also olive-brown in colour with pink markings throughout.",
+        "image": "pinkElephant.jpg"
+    },
+    {
+        "id": "5",
+        "name": "Tau Emperor Moth",
+        "sciname": "Aglia tau",
+        "about": "With a wingspan of 60-84mm, the Tau Emperor moth is possibly the smallest European Saturniidae. Both sexes are yellowish orange with dark brown scales on the underside of the wings. Aglia tau is known for its 4 black spots with a Tau on the center. Tau (τ, Τ) is the 19th letter of the Greek Alphabet. Adults of this species show a wide variety of colors, with the darker form (f. melania) typical of mountainous and cold areas or with back hindwings (f. cerberus).",
+        "image": "tauEmperor.jpg"
+    },
+    {
+        "id": "6",
+        "name": "Cecropia Moth",
+        "sciname": "Hyalophora cecropia",
+        "about": "Cecropia moths are beautiful silk moths with reddish bodies and black to brown wings surrounded by bands of white, red, and tan. With a wingspan of five to seven inches (13 to 18 centimeters), the cecropia moth is the largest moth found in North America.",
+        "image": "cecropia.jpg"
+    }
+]

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalog Page</title>
+    <style>
+
+        body{background-color:rgb(210, 174, 130)}
+
+        .moths-container{
+            display:grid;
+            grid-template-columns:auto auto auto;
+            justify-content:space-evenly;
+            row-gap:50px;
+            margin:3%;
+        }
+        .moth-card{
+            transition:ease 0.75s;
+            display:flex;
+            background-color:blanchedalmond;
+            border:2px solid black;
+            padding:5px;
+            width:280px;
+
+            border-radius:15px;
+        }
+        .moth-card:hover{
+            transform:scale(110%);
+            
+        }
+
+        .moth-img{
+            transition:ease 0.5s;
+            width:100px;
+            height:100px;
+            border-radius:100%;
+            border:3px solid white;
+            object-fit:cover;
+
+            margin-top:4px;
+            margin-left:4px;
+        }
+        .moth-name{text-align:center; width:100%;}
+
+        .moth-img:hover{transform:scale(115%);}
+    </style>
+</head>
+<body>
+
+    <%- include("partials/head.ejs") -%>
+
+    <div class="moths-container">
+        <% moths.forEach (moths => {%>
+            <div class="moth-card">
+                <div class="moth-img-container">
+
+                    <a class="img-bttn" href="./about/<%= moths.id %>">
+                        <img class="moth-img" src="<%= moths.image %>"></a>
+                </div>
+                <div class="moth-name">
+                    <p><b></b></p>
+                    <p><b><%= moths.name %></b></p>
+                    <p><i><%= moths.sciname %></i></p>
+                </div>
+            </div>
+        <% }) %>
+    </div>
+
+
+    
+</body>
+</html>
